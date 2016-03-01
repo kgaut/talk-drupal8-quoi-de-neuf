@@ -27,6 +27,11 @@ section img {
     height: 0; }
     section img.current-visible.current-fragment {
       height: auto; }
+  section img.no-border {
+    border-radius: 0;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important; }
 
 section .half {
   width: 49%; }

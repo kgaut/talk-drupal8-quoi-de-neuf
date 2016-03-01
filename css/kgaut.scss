@@ -37,6 +37,7 @@ section {
   }
   img {
     border-radius: $radius;
+
     &#img-svg {
       background-color: white;
     }
@@ -45,6 +46,12 @@ section {
       &.current-fragment {
         height: auto;
       }
+    }
+    &.no-border {
+      border-radius : 0;
+      border: none !important;
+      background: none!important;
+      box-shadow: none !important;
     }
   }
   .half {
